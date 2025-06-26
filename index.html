@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Tracking App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hand Tracking App</h1>
+        <div class="video-container">
+            <video id="video" playsinline></video>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="controls">
+            <div class="audio-player">
+                <h2>Audio Controls</h2>
+                <select id="audio-select">
+                    <option value="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">SoundHelix Song 1</option>
+                    <option value="Kanye West - Bound 2.mp3">Kanye West - Bound 2</option>
+                    <option value="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3">SoundHelix Song 2</option>
+                </select>
+                <audio id="audio" controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="volume-display">Volume: <span id="volume-value">100%</span></div>
+                <div class="speed-display">Speed: <span id="speed-value">1.00x</span></div>
+            </div>
+            <div class="slider-container">
+                <h2>Virtual Slider</h2>
+                <div class="slider-track">
+                    <div id="slider-handle"></div>
+                </div>
+                <div class="slider-value">Value: <span id="slider-value">50%</span></div>
+            </div>
+        </div>
+        <div class="tracking-info">
+            <div id="left-index">Left Index: Not detected</div>
+            <div id="left-thumb">Left Thumb: Not detected</div>
+            <div id="right-index">Right Index: Not detected</div>
+            <div id="right-thumb">Right Thumb: Not detected</div>
+            <div id="pinch-status">Pinch Status: Not detected</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils"></script>
+    <script src="app.js"></script>
+</body>
+</html> 
