@@ -4,6 +4,7 @@
   import { Camera } from '@mediapipe/camera_utils';
   import { drawConnectors, drawLandmarks } from '@mediapipe/drawing_utils';
 
+  
   // --- Svelte Bindings & UI State ---
   let videoElement;
   let canvasElement;
