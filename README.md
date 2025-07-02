@@ -1,4 +1,4 @@
-# VisionAudio: The Gesture-Based Audio Workstation
+# VisionAudio: The Gesture-Based Audio Workstation!
 
 VisionAudio is an interactive web application that transforms your webcam into a futuristic audio controller. By tracking hand gestures in real-time, users can manipulate audio playback in an intuitive, theremin-like experience, blending the physical and digital worlds.
 
