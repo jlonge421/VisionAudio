@@ -194,7 +194,7 @@ function onResults(results) {
                 pinchStatus.textContent = `${prefix.charAt(0).toUpperCase() + prefix.slice(1)} Hand: Pinched!`;
                 pinchStatus.style.color = '#FF0000';
             }
-
+            
             // Control playback speed with left hand pinch
             if (prefix === 'left') {
                 updatePlaybackRate(distance);
