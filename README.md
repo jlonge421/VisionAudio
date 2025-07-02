@@ -6,6 +6,9 @@ This project was built to explore the frontiers of browser-based interaction, co
 
 [**Try it Live!**](https://vision-audio-self.vercel.app/)
 
+There are two versions, one which I initially began developing as proof of concept and another based on svelte.
+This is not a final version whatsover.
+
 ---
 
 ## Features
