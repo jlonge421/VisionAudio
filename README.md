@@ -4,7 +4,7 @@ VisionAudio is an interactive web application that transforms your webcam into a
 
 This project was built to explore the frontiers of browser-based interaction, combining cutting-edge computer vision with the advanced capabilities of the Web Audio API to create a seamless and engaging user experience.
 
-[**Try it Live!**](https://vision-audio-self.vercel.app/) *(Link to your Vercel deployment)*
+[**Try it Live!**](https://vision-audio-self.vercel.app/)
 
 ---
 
